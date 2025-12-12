@@ -1,6 +1,3 @@
-
-//monitor class
-
 class monitor;
   
   virtual intf vif;
