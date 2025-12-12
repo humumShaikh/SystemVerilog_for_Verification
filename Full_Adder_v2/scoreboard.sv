@@ -14,7 +14,7 @@ class Scoreboard;
       trans = new();
       mon2scb.get(trans);
       trans.display("Scoreboard Class Signals");
-      if(((trans.a ^ trans.b ^ trans.c) == trans.sum) && (((((trans.a & trans.b) | ((trans.a ^ trans.b) & trans.c)) == trans.carry)) == trans.carry))
+      if(((trans.a ^ trans.b ^ trans.c)==trans.sum) && (  (trans.a & trans.b) | ((trans.a ^ trans.b) & trans.c)  )==trans.carry)
         $display("----------TEST PASSED----------");
       else
         $display("!!!!!!!!!!TEST FAILED!!!!!!!!!!");
