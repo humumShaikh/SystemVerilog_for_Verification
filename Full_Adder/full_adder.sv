@@ -1,4 +1,3 @@
-
 module full_adder
 (
   input wire a,
