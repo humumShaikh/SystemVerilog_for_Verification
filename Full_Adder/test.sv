@@ -1,4 +1,3 @@
-
 // program test
 `include "environment.sv"
 program test(intf intff);
