@@ -1,4 +1,3 @@
-
 //driver class : take the mailbox info and put into DUT through interface
 
 class driver;
