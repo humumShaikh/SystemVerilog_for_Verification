@@ -25,8 +25,6 @@ class driver;
         vif.b <= trans.b;
         vif.c <= trans.c;
         #10;
-        //trans.sum <= vif.sum;
-        //trans.carry <= vif.carry;
         
         trans.display("driver class signals");
       
