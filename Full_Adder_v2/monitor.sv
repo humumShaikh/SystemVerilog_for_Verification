@@ -11,6 +11,7 @@ class Monitor;
   
   task main();
     repeat(40)
+      #1
     begin
       Transaction trans;
       trans = new();
