@@ -1,5 +1,3 @@
-
-
 `include "interface.sv"
 `include "test.sv"
 
