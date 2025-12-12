@@ -1,6 +1,3 @@
-
-//interface
-
 interface intf();
   
   logic a;
