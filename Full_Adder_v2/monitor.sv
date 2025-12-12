@@ -11,7 +11,7 @@ class Monitor;
   
   task main();
     repeat(40)
-      #1
+      //#1 optional to wait for 1ns and then sample
     begin
       Transaction trans;
       trans = new();
