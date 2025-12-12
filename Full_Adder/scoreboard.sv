@@ -1,5 +1,3 @@
-//scoreboard class
-
 class scoreboard;
   mailbox mon2scb; // mailbox declaration mon to scoreboard
   
