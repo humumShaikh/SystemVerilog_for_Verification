@@ -1,4 +1,3 @@
-
 //Generator Class : we randomise trans signals and send to driver via mailbox
 class generator;
   transaction trans;//
