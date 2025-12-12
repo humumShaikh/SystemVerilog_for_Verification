@@ -11,3 +11,6 @@
 9.  All the ports a,b,c,sum and carry will be there
 10.  Select them all and add them to the wave by right clicking them
 11.  Press the run button
+
+
+<img width="635" height="808" alt="image" src="https://github.com/user-attachments/assets/95faa14a-cc62-4148-af12-8c7a5aacbf09" />
