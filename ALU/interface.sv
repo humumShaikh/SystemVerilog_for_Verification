@@ -1,3 +1,5 @@
+//interface between DUT and the driver
+
 interface intf();
 
   logic A;
