@@ -1,3 +1,6 @@
+//Design file for ALU
+//Single Bit ALU 
+//Supports 4 operations
 module ALU
 (
   input wire A,
