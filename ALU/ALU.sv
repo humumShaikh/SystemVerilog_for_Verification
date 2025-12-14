@@ -11,7 +11,7 @@ module ALU
 
   logic f;
   
-  always_comb
+  always_comb          //combinational logic from systemverilog
   begin
     case (S)
       2'b00 : f = A ^ B;
