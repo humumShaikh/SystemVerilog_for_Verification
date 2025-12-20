@@ -1,3 +1,5 @@
+//Absolutely basic Or-Gate Design file
+
 module orGate
 (
   input wire A,
