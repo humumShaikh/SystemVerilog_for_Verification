@@ -1,3 +1,6 @@
+//Basic Interface 
+//Just declare all the ports of your DUT
+
 interface intf();
 
   logic A;
