@@ -7,7 +7,7 @@
 // Design Name: 
 // Module Name: SPI_M
 // Project Name: 
-// Target Devices: 
+// Target Devices: xc7a35tcpg236-1 (Basys3)
 // Tool Versions: 
 // Description: 
 // 
