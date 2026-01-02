@@ -4,4 +4,4 @@ Contains the following items :
 
 - SPI Master
 - SPI Slave
-- SPI MasterxSlave 
+- SPI Master x Slave (Configuration for testbench) 
