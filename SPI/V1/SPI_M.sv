@@ -4,9 +4,8 @@
 // Engineer: copperwire
 // 
 // Create Date: 23.12.2025 22:16:22
-// Design Name: 
+// Design Name: SPI 
 // Module Name: SPI_M
-// Project Name: 
 // Target Devices: xc7a35tcpg236-1 (Basys3)
 // Tool Versions: 
 // Description: 
