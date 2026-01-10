@@ -34,6 +34,7 @@ module SPI_M
 
     //The dataBuffer holds the bit sampled at the negedge since you can't directly sample and store the bit in the main register (masterData)
     //in both posedge and negedge, so this dataBuffer will sample and hold the data of the negedge and then this data is updated
+    //in the masterData on the posedge along with the master's shifting operation
     
     initial
     begin
