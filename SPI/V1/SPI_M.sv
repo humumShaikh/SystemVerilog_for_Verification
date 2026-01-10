@@ -30,7 +30,7 @@ module SPI_M
     reg sclk_flag = 0;
     reg [3:0] counter = 8;
     reg dataBuffer = 0;
-    reg [7:0] masterData = 8'h21; //0 1
+    reg [7:0] masterData = 8'h21; //0 1        //default data if you comment the line below 'masterData <= din'
     
     
     initial
@@ -55,7 +55,7 @@ module SPI_M
         begin //-//
             start_flag <= 1'b1;
             ss <= 1'b0;
-            masterData <= din;
+            masterData <= din;        //Comment this line if you want to set the to be transmitted data fixed at start
         end //-//
         
         else if(start_flag == 1'b1)
