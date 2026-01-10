@@ -2,20 +2,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Company: CWIR3
 // Engineer: copperwire
-// 
 // Create Date: 23.12.2025 22:16:22
 // Design Name: SPI 
 // Module Name: SPI_M
 // Target Devices: xc7a35tcpg236-1 (Basys3)
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
+// Description: SPI Master Module - 8 bit
+// Revision: V1
 // Revision 0.01 - File Created
 // Additional Comments: SPI Mode 1 : CPOL = 0 CPHA = 1 , Tx +posedge Rx -negedge
-// 
 //////////////////////////////////////////////////////////////////////////////////
 
 
