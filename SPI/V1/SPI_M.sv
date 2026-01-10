@@ -32,7 +32,8 @@ module SPI_M
     reg dataBuffer = 0;                        //One of the key registers as it holds the value of the sampled negedge
     reg [7:0] masterData = 8'h21; //0 1        //default data if you comment the line below 'masterData <= din'
 
-    //Note that the dataBuffer
+    //The dataBuffer holds the bit sampled at the negedge since you can't directly sample and store the bit in the main register (masterData)
+    //in both posedge and negedge, so this dataBuffer will sample and hold the data of the negedge and then this data is updated
     
     initial
     begin
