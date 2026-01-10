@@ -29,9 +29,10 @@ module SPI_M
     reg start_flag = 0;
     reg sclk_flag = 0;
     reg [3:0] counter = 8;
-    reg dataBuffer = 0;
+    reg dataBuffer = 0;                        //One of the key registers as it holds the value of the sampled negedge
     reg [7:0] masterData = 8'h21; //0 1        //default data if you comment the line below 'masterData <= din'
-    
+
+    //Note that the dataBuffer
     
     initial
     begin
