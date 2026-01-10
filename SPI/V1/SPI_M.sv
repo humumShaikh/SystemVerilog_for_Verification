@@ -100,11 +100,11 @@ module SPI_M
     
     
     
-    always @(negedge sclk)
+    always @(negedge sclk)            //Works on the negedge for the sampling
     begin
         if(sclk_flag == 1'b1)
         begin
-            dataBuffer <= miso;
+            dataBuffer <= miso;        //dataBuffer
         end
     end
     
