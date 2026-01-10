@@ -15,8 +15,8 @@
 
 module SPI_M
 (
-    input wire [7:0] din,
-    input wire  start,
+    input wire [7:0] din,                //if you want to set the internal register data from outside
+    input wire  start,                   //start trigger to initiate the communication, do set it low on the next posedge
     input wire  clk,
     input wire  reset,
     input wire  miso,
