@@ -32,7 +32,7 @@ package spi_ms;
   
   
   
-  class Generator;
+  class Generator;                                    //Generator Class - generates multiple objects of class transaction one by one and passes them to the drive via the mailbox
     
     mailbox gen2drv;
     
